@@ -1,0 +1,19 @@
+.message_list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #b9dfdb;
+  border-radius: 20px;
+  width: fit-content;
+}
+
+.message_list_author {
+  font-size: 16px;
+  font-weight: 700;
+}
+.message_list_text {
+  margin: 5px 0;
+  font-size: 14px;
+}

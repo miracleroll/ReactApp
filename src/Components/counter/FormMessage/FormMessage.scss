@@ -1,0 +1,19 @@
+.message_form {
+  display: flex;
+  flex-direction: column;
+}
+.message_form_author {
+  max-width: 200px;
+}
+.message_form_text {
+  height: 65px;
+  resize: none;
+}
+
+.message_form_submit {
+  width: 100%;
+  align-self: end;
+  height: 50px;
+  background-color: #e0a2c9;
+  color: #fff;
+}

@@ -1,0 +1,29 @@
+.message_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.message_form_author {
+  max-width: 200px;
+}
+
+.message_form_text {
+  height: 65px;
+  resize: none;
+}
+
+.message_form_submit {
+  width: 100%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  height: 50px;
+  background-color: #e0a2c9;
+  color: #fff;
+}
+/*# sourceMappingURL=FormMessage.css.map */
