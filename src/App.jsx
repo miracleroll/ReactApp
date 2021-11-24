@@ -19,17 +19,18 @@ const BOT_MESSAGES = {
     text: "Спасибо, что оставил сообщение!Ты классный!",
 };
 
-const [messageList, setMessageList] = useState([INIT_MESSAGES]);
+const [messageList, setMessageList] = useState([INIT_MESSAGES]); 
+
   useEffect(() => {
     let timer = null;
     const lastMessage = messageList[messageList.length - 1];
-    if (lastMessage?.author !== "бот")
+    if (lastMessage.author !== "Бот")
       timer = setTimeout(() => {
         setMessageList([...messageList, BOT_MESSAGES]);
-      }, 1500);
+      }, 3000);
 
     return () => {
-      clearInterval(timer);
+      clearTimeout(timer);
     };
 
   }, [messageList]);
