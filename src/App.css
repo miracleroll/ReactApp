@@ -1,11 +1,14 @@
 .App {
   max-width: 1200px;
   margin: 0 auto;
-  border: #e0a2c9 1px solid;
+  border: #f381a7 1px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .App-header {
-  background-color: #e0a2c9;
+  background-color: #f381a7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -18,5 +21,10 @@
   font-size: 25px;
   color: white;
   height: 50px;
+  margin-bottom: 10px;
+}
+
+.Chats {
+  background-color: #f381a7;
 }
 /*# sourceMappingURL=App.css.map */
