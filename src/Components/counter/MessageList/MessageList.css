@@ -8,8 +8,8 @@
           flex-direction: column;
   text-align: left;
   padding: 10px;
-  margin: 10px 0;
-  background-color: #b9dfdb;
+  margin: 10px;
+  border: #f381a7 1px solid;
   border-radius: 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -17,8 +17,14 @@
 }
 
 .message_list_author {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #80dfcf;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .message_list_text {
